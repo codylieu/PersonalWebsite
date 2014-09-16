@@ -11,7 +11,10 @@
     "angular-sanitize": "1.2.16",
     "angular-animate": "1.2.16",
     "angular-touch": "1.2.16",
-    "angular-route": "1.2.16"
+    "angular-route": "1.2.16",
+    "angular-pdf": "~0.2.4",
+    "ng-pdfviewer": "~0.2.1",
+    "pdfjs": "~1.0.712"
   },
   "devDependencies": {
     "angular-mocks": "1.2.16",

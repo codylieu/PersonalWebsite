@@ -8,10 +8,8 @@
  * Controller of the myWebsiteApp
  */
 angular.module('myWebsiteApp')
-  .controller('ResumeCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('ResumeCtrl', function ($scope, $window) {
+    $scope.openPDF = function () {
+    	$window.open("./CodyLieuResume.pdf");
+    }
   });
